@@ -10,6 +10,9 @@ import { ContainerMenuAdministradorComponent } from './components/container-menu
 import { ContainerIngresoVehiculoComponent } from './components/container-ingreso-vehiculo/container-ingreso-vehiculo.component';
 import { ContainerListaMecanicosComponent } from './components/container-lista-mecanicos/container-lista-mecanicos.component';
 import { ContainerListaClientesComponent } from './components/container-lista-clientes/container-lista-clientes.component';
+import { ContainerConsultaMecanicoComponent } from './components/container-consulta-mecanico/container-consulta-mecanico.component';
+import { ContainerCrearMecanicoComponent } from './components/container-crear-mecanico/container-crear-mecanico.component';
+import { ContainerModificarMecanicoComponent } from './components/container-modificar-mecanico/container-modificar-mecanico.component';
 
 
 const routes: Routes = [
@@ -23,6 +26,9 @@ const routes: Routes = [
   {path:'ingresoVehiculo', component: ContainerIngresoVehiculoComponent},
   {path:'listaMecanicos', component: ContainerListaMecanicosComponent},
   {path:'listaClientes', component: ContainerListaClientesComponent},
+  {path:'consultaMecanico', component: ContainerConsultaMecanicoComponent},
+  {path:'crearMecanico', component: ContainerCrearMecanicoComponent},
+  {path:'modificarMecanico', component: ContainerModificarMecanicoComponent},
  
 ];
 

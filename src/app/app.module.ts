@@ -26,6 +26,12 @@ import { ListaMecanicosComponent } from './components/lista-mecanicos/lista-meca
 import { ContainerListaMecanicosComponent } from './components/container-lista-mecanicos/container-lista-mecanicos.component';
 import { ContainerListaClientesComponent } from './components/container-lista-clientes/container-lista-clientes.component';
 import { ListaClientesComponent } from './components/lista-clientes/lista-clientes.component';
+import { ContainerConsultaMecanicoComponent } from './components/container-consulta-mecanico/container-consulta-mecanico.component';
+import { ConsultaMecanicoComponent } from './components/consulta-mecanico/consulta-mecanico.component';
+import { ContainerModificarMecanicoComponent } from './components/container-modificar-mecanico/container-modificar-mecanico.component';
+import { ModificarMecanicoComponent } from './components/modificar-mecanico/modificar-mecanico.component';
+import { ContainerCrearMecanicoComponent } from './components/container-crear-mecanico/container-crear-mecanico.component';
+import { CrearMecanicoComponent } from './components/crear-mecanico/crear-mecanico.component';
 
 
 @NgModule({
@@ -49,6 +55,12 @@ import { ListaClientesComponent } from './components/lista-clientes/lista-client
     ContainerListaMecanicosComponent,
     ContainerListaClientesComponent,
     ListaClientesComponent,
+    ContainerConsultaMecanicoComponent,
+    ConsultaMecanicoComponent,
+    ContainerModificarMecanicoComponent,
+    ModificarMecanicoComponent,
+    ContainerCrearMecanicoComponent,
+    CrearMecanicoComponent,
 
   ],
   imports: [
