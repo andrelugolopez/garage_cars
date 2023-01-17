@@ -16,7 +16,7 @@ import { ContainerListCustomerComponent } from './components/container-list-cust
 import { ContainerCreateCustomerComponent } from './components/container-create-customer/container-create-customer.component';
 import { ContainerQueryCustomerComponent } from './components/container-query-customer/container-query-customer.component';
 import { ContainerModifyCustomerComponent } from './components/container-modify-customer/container-modify-customer.component';
-
+import { ContainerMainReceptionComponent } from './components/container-main-reception/container-main-reception.component';
 
 const routes: Routes = [
 
@@ -35,6 +35,7 @@ const routes: Routes = [
   {path:'createCustomer', component: ContainerCreateCustomerComponent},
   {path:'queryCustomer', component: ContainerQueryCustomerComponent},
   {path:'modifyCustomer', component: ContainerModifyCustomerComponent},
+  {path:'mainReception', component: ContainerMainReceptionComponent},
  
 ];
 

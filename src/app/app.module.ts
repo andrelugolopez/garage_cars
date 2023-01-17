@@ -38,6 +38,8 @@ import { ContainerModifyCustomerComponent } from './components/container-modify-
 import { ModifyCustomerComponent } from './components/modify-customer/modify-customer.component';
 import { ContainerCreateCustomerComponent } from './components/container-create-customer/container-create-customer.component';
 import { CreateCustomerComponent } from './components/create-customer/create-customer.component';
+import { ContainerMainReceptionComponent } from './components/container-main-reception/container-main-reception.component';
+import { MainReceptionComponent } from './components/main-reception/main-reception.component';
 
 
 @NgModule({
@@ -73,6 +75,8 @@ import { CreateCustomerComponent } from './components/create-customer/create-cus
     ModifyCustomerComponent,
     ContainerCreateCustomerComponent,
     CreateCustomerComponent,
+    ContainerMainReceptionComponent,
+    MainReceptionComponent,
 
   ],
   imports: [
