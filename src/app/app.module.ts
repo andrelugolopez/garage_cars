@@ -18,6 +18,15 @@ import { ContainerDetallesReparacionComponent } from './components/container-det
 import { DetallesReparacionComponent } from './components/detalles-reparacion/detalles-reparacion.component';
 import { ContainerHistorialComponent } from './components/container-historial/container-historial.component';
 import { HistorialComponent } from './components/historial/historial.component';
+import { MenuAdministradorComponent } from './components/menu-administrador/menu-administrador.component';
+import { ContainerMenuAdministradorComponent } from './components/container-menu-administrador/container-menu-administrador.component';
+import { ContainerIngresoVehiculoComponent } from './components/container-ingreso-vehiculo/container-ingreso-vehiculo.component';
+import { IngresoVehiculoComponent } from './components/ingreso-vehiculo/ingreso-vehiculo.component';
+import { ListaMecanicosComponent } from './components/lista-mecanicos/lista-mecanicos.component';
+import { ContainerListaMecanicosComponent } from './components/container-lista-mecanicos/container-lista-mecanicos.component';
+import { ContainerListaClientesComponent } from './components/container-lista-clientes/container-lista-clientes.component';
+import { ListaClientesComponent } from './components/lista-clientes/lista-clientes.component';
+
 
 @NgModule({
   declarations: [
@@ -31,7 +40,16 @@ import { HistorialComponent } from './components/historial/historial.component';
     ContainerDetallesReparacionComponent,
     DetallesReparacionComponent,
     ContainerHistorialComponent,
-    HistorialComponent
+    HistorialComponent,
+    MenuAdministradorComponent,
+    ContainerMenuAdministradorComponent,
+    ContainerIngresoVehiculoComponent,
+    IngresoVehiculoComponent,
+    ListaMecanicosComponent,
+    ContainerListaMecanicosComponent,
+    ContainerListaClientesComponent,
+    ListaClientesComponent,
+
   ],
   imports: [
     BrowserModule,
